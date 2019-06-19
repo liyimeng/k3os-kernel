@@ -16,5 +16,5 @@ chmod a+x debian/rules
 chmod a+x debian/scripts/*
 chmod a+x debian/scripts/misc/*
 fakeroot debian/rules clean
-fakeroot debian/rules binary-headers binary-generic do_zfs=false do_dkms_nvidia=false
+fakeroot debian/rules binary-headers binary-generic do_zfs=true do_dkms_nvidia=true
 popd
